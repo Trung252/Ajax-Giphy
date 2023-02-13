@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AjaxByGiphy</title>
+</head>
+<body class="bg-dark">
+    <div class="container ctn">
+        <div class="text-center">
+            <h2 class="text-uppercase text-white">Giphy Party</h2>
+            <div>
+                <form id="formInput">
+                    <input id="in" required class="form-control fct" type="text" placeholder="Search">
+                    <button class="btn btn-secondary" type="submit">
+                        Search giphy
+                    </button>
+                    <button class="btn btn-danger" type="reset">
+                        Remove giphy
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div id="root" class="ctn text-center">
+
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios@1.2.1/dist/axios.min.js"></script>
+    <script src="./Ajax-Giphy.js" defer></script>
+</body>
+</html>
